@@ -10,7 +10,7 @@ const initalFormValues = {
     password: '',
     name: '' ,
     email: '',
-    authCode: '1',
+    authCode: '2',
  
 
 };
@@ -122,7 +122,8 @@ const mapStateToProps = state => {
         allUsers: state.allUsers,
         allClasses: state.allClasses,
         classSearch: state.classSearch,
-        body: state.body
+        body: state.body,
+        user: state.body
 
     }
 }

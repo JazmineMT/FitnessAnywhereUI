@@ -9,3 +9,5 @@ export const axiosWithAuth = () => {
         baseURL: "https://fitness-anywhere-jazmine.herokuapp.com"
     });
 }
+
+export default axiosWithAuth;
